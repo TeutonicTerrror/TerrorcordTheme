@@ -3,7 +3,7 @@
  * @version 1.0.1
  * @description TeutonicTerror's Discord Theme
  * @author TeutonicTerror
- * @source https://raw.githubusercontent.com/TeutonicTerrror/TerrorcordTheme/refs/heads/main/terrorcord.theme.css
+ * @source https://github.com/TeutonicTerrror/TerrorcordTheme/tree/main
  * @website https://teutonicterror.pages.dev/
  * @invite tg3eAyyX8F
  */
@@ -12,9 +12,9 @@
 /*Radial Status*/
 @import url('https://discordstyles.github.io/RadialStatus/RadialStatus.css');
 /*Clearvision (modded slightly) base*/
-@import url('https://raw.githubusercontent.com/TeutonicTerrror/TerrorcordTheme/refs/heads/main/cvModdedbase.css');
+@import url('https://raw.githubusercontent.com/TeutonicTerrror/TerrorcordTheme/refs/heads/main/bases/cvModdedbase.css');
 /*TerrorCord*/
-@import url('https://raw.githubusercontent.com/TeutonicTerrror/TerrorcordTheme/refs/heads/main/terrorcordBase.css');
+@import url('https://raw.githubusercontent.com/TeutonicTerrror/TerrorcordTheme/refs/heads/main/bases/terrorcordBase.css');
 
 /*! TerrorCord by TeutonicTerror Root Vars */
 :root {
