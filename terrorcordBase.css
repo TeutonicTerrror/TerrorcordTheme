@@ -1,0 +1,74 @@
+/* ==== JOB APPLICATION SHOP FX ==== */
+[class*="shopCard"] {
+  background: url('https://i.ibb.co/tp4rC76D/jobapplication.png') center/cover !important;
+  border: 2px solid var(--main-color) !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+[class*="shopCard"]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7) !important;
+  z-index: 1;
+}
+
+[class*="shopCard"] > * {
+  position: relative;
+  z-index: 2;
+}
+
+[class*="shopCard"] :is(h3, p, span, div) {
+  color: white !important;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.8) !important;
+}
+
+[class*="shopCard"]:hover {
+  transform: scale(1.02) !important;
+  box-shadow: 0 0 15px var(--main-color) !important;
+  transition: all 0.3s ease !important;
+}
+
+.contents__201d5.cardButtonInner_c3d04b {
+  position: relative;
+}
+
+.contents__201d5.cardButtonInner_c3d04b::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.avatarDecorationPreview__6d099 {
+  display: none !important;
+}
+
+.preview_c3d04b {
+    display: none !important;
+}
+
+.productName_c3d04b {
+  font-weight: bold;
+}
+
+.preview__1e458 {
+  display: none !important;
+}
+
+/* ==== Custom Badges ==== */
+.sigma::after {
+    content: "[SIGMA]";
+    background-color: purple; 
+    color: white;
+    padding: 2px 6px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    vertical-align: middle;
+}
