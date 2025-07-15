@@ -344,7 +344,7 @@
 }
 
 .visual-refresh .bg__960e4 {
-  background: url('https://i.ibb.co/d8jjrQ1/bernd-dittrich-hlf-P8-QIk0kk-unsplash.jpg') var(--background-position)/var(--background-size) no-repeat;
+  background: var(--background-image) var(--background-position)/var(--background-size) no-repeat;
   background-attachment: var(--background-attachment);
   filter: var(--background-filter);
   z-index: -1;
@@ -479,7 +479,7 @@ code {
 
 /*! TerrorCord by TeutonicTerror */
 .refresh-fast-follow-guild-bg.visual-refresh .bg__960e4 {
-  background: url('https://i.ibb.co/d8jjrQ1/bernd-dittrich-hlf-P8-QIk0kk-unsplash.jpg') var(--background-position)/var(--background-size) no-repeat;
+  background: var(--background-image) var(--background-position)/var(--background-size) no-repeat;
   background-attachment: var(--background-attachment);
   filter: var(--background-filter);
   z-index: -1;
@@ -4109,12 +4109,12 @@ code {
   --background-size: cover;
   --background-attachment: fixed;
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
-  --user-popout-image: url('https://i.ibb.co/d8jjrQ1/bernd-dittrich-hlf-P8-QIk0kk-unsplash.jpg');
+  --user-popout-image: var(--background-image);
   --user-popout-position: var(--background-position);
   --user-popout-size: var(--background-size);
   --user-popout-attachment: var(--background-attachment);
   --user-popout-filter: var(--background-filter);
-  --user-modal-image: url('https://i.ibb.co/d8jjrQ1/bernd-dittrich-hlf-P8-QIk0kk-unsplash.jpg');
+  --user-modal-image: var(--background-image);
   --user-modal-position: var(--background-position);
   --user-modal-size: var(--background-size);
   --user-modal-attachment: var(--background-attachment);
