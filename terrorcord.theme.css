@@ -31,7 +31,8 @@
   --background-repeat: no-repeat !important;
   --background-attachment: fixed !important;
   --background-contrast: 100% !important;
-  --background-saturation: 100% !important;
+  --background-saturation: 45% !important;
+  --background-brightness: 25% !important;
   --background-grayscale: 0% !important;
   --background-invert: 0% !important;
   --background-blur: 0px !important;
