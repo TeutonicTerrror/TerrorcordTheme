@@ -22,12 +22,19 @@
 
 /*! TerrorCord by TeutonicTerror */
 .info__2debe::after {
-  content: "TerrorCord" " " "1.0.1";
-  color: var(--text-muted);
-  font-size: 12px;
-  line-height: 1.3333333333;
-  font-weight: 400;
-  font-family: var(--font-primary);
+  content: " Terror Cord — v1.0.0 ";
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: var(--background-secondary-alt, #2f3136);
+  color: var(--text-muted, #b9bbbe);
+  font-size: 11px;
+  line-height: 1.4;
+  font-weight: 500;
+  font-family: var(--font-primary, "Segoe UI", sans-serif);
+  letter-spacing: 0.3px;
+  opacity: 0.85;
 }
 
 .visual-refresh:not(.platform-osx) .leading_c38106::before {
