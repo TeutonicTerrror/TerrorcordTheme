@@ -18,7 +18,7 @@
 
 /* Vencord Read All Button */
 .vc-text-btn-base.vc-text-btn-secondary.vc-ranb-button {
-  background: linear-gradient(135deg, #ff4b4b, #c92424);
+  background: linear-gradient(135deg, #b87333, #8c531a);
   color: #fff !important;
   border: none;
   border-radius: 9999px;
@@ -38,9 +38,9 @@
   justify-content: center;
 }
 .vc-text-btn-base.vc-text-btn-secondary.vc-ranb-button:hover {
-  background: linear-gradient(135deg, #ff5c5c, #d42a2a);
+  background: linear-gradient(135deg, #c4844a, #9b5c22);
   transform: scale(0.93) translateY(-2px);
-  box-shadow: 0 4px 10px rgba(255, 50, 50, 0.35);
+  box-shadow: 0 4px 10px rgba(184, 115, 51, 0.35);
   text-decoration: none !important;
 }
 .vc-text-btn-base.vc-text-btn-secondary.vc-ranb-button:active {
@@ -62,6 +62,7 @@
 .vc-text-btn-base.vc-text-btn-secondary.vc-ranb-button:hover::after {
   left: 140%;
 }
+
 
 /*Folder Group Cleanliness*/
 .folderGroup__48112 {
