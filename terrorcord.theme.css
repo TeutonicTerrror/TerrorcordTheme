@@ -16,6 +16,44 @@
 /*TerrorCord*/
 @import url('https://raw.githubusercontent.com/TeutonicTerrror/TerrorcordTheme/refs/heads/main/bases/terrorcordBase.css');
 
+
+/*Vencord Read All Button*/
+.vc-text-btn-base.vc-text-btn-secondary.vc-ranb-button {
+  background: linear-gradient(135deg, #ff4b4b, #c92424);
+  color: #fff;
+  border: none;
+  border-radius: 9999px;
+  padding: 6px 16px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.vc-text-btn-base.vc-text-btn-secondary.vc-ranb-button:hover {
+  background: linear-gradient(135deg, #ff5c5c, #d42a2a);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.vc-text-btn-base.vc-text-btn-secondary.vc-ranb-button:active {
+  background: linear-gradient(135deg, #e63b3b, #b82020);
+  transform: translateY(0);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/*Folder Group Cleanliness*/
+.folderGroup__48112 {
+  transform: scale(0.9);
+  transform-origin: center center;
+  transition: transform 0.2s ease;
+}
+.folderGroup__48112:first-of-type {
+  transform: translateY(10%) scale(0.9);
+}
+
+/*Chat Gradient Removal*/
 .chatGradient__36d07 {
   display: none !important;
 }
