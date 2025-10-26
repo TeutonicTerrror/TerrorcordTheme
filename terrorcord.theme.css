@@ -17,30 +17,51 @@
 @import url('https://raw.githubusercontent.com/TeutonicTerrror/TerrorcordTheme/refs/heads/main/bases/terrorcordBase.css');
 
 
-/*Vencord Read All Button*/
+/* Vencord Read All Button */
 .vc-text-btn-base.vc-text-btn-secondary.vc-ranb-button {
   background: linear-gradient(135deg, #ff4b4b, #c92424);
-  color: #fff;
+  color: #fff !important;
   border: none;
   border-radius: 9999px;
-  padding: 6px 16px;
+  padding: 6px 15px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.25s ease;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-decoration: none !important;
+  position: relative;
+  overflow: hidden;
+  transform: scale(0.9);
+  transform-origin: center center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
-
 .vc-text-btn-base.vc-text-btn-secondary.vc-ranb-button:hover {
   background: linear-gradient(135deg, #ff5c5c, #d42a2a);
-  transform: translateY(-1px);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  transform: scale(0.93) translateY(-2px);
+  box-shadow: 0 4px 10px rgba(255, 50, 50, 0.35);
+  text-decoration: none !important;
 }
-
 .vc-text-btn-base.vc-text-btn-secondary.vc-ranb-button:active {
-  background: linear-gradient(135deg, #e63b3b, #b82020);
-  transform: translateY(0);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  transform: scale(0.9) translateY(0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.vc-text-btn-base.vc-text-btn-secondary.vc-ranb-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -80%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(120deg, rgba(255,255,255,0.18), rgba(255,255,255,0.05));
+  transform: skewX(-25deg);
+  transition: left 1.25s ease;
+  pointer-events: none;
+}
+.vc-text-btn-base.vc-text-btn-secondary.vc-ranb-button:hover::after {
+  left: 140%;
 }
 
 /*Folder Group Cleanliness*/
