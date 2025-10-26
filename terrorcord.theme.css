@@ -16,7 +16,6 @@
 /*TerrorCord*/
 @import url('https://raw.githubusercontent.com/TeutonicTerrror/TerrorcordTheme/refs/heads/main/bases/terrorcordBase.css');
 
-
 /* Vencord Read All Button */
 .vc-text-btn-base.vc-text-btn-secondary.vc-ranb-button {
   background: linear-gradient(135deg, #ff4b4b, #c92424);
@@ -73,7 +72,9 @@
 .folderGroup__48112:first-of-type {
   transform: translateY(10%) scale(0.9);
 }
-
+.listItem__650eb:first-of-type {
+  transform: translateY(10%) scale(0.9);
+}
 /*Chat Gradient Removal*/
 .chatGradient__36d07 {
   display: none !important;
