@@ -84,7 +84,12 @@
 .chatGradient__36d07.chatGradientBase__36d07.__web-inspector-hide-shortcut__ {
   display: none !important;
 }
-
+.chatTypingGradientAtBottom__36d07.chatGradientBase__36d07 {
+  display: none !important;
+}
+.chatTypingGradientAtBottom__36d07 {
+   display: none !important;
+}
 /*! TerrorCord by TeutonicTerror Root Vars */
 :root {
   --main-color: #FF4444 !important;
