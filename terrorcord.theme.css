@@ -16,6 +16,16 @@
 /*TerrorCord*/
 @import url('https://raw.githubusercontent.com/TeutonicTerrror/TerrorcordTheme/refs/heads/main/bases/terrorcordBase.css');
 
+.chatGradient__36d07 {
+  display: none !important;
+}
+.chatGradient__36d07.chatGradientBase__36d07 {
+  display: none !important;
+}
+.chatGradient__36d07.chatGradientBase__36d07.__web-inspector-hide-shortcut__ {
+  display: none !important;
+}
+
 /*! TerrorCord by TeutonicTerror Root Vars */
 :root {
   --main-color: #FF4444 !important;
